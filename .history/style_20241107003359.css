@@ -1,0 +1,79 @@
+body{
+    background: #a490e1;
+    color: rgb(32, 129, 151);
+}
+#header {
+display: -moz-flex;
+display: -webkit-flex;
+display: -ms-flex;
+display: flex;
+background-color: #5e42a6;
+cursor: default;
+padding: 1.75em 2em;
+}
+
+#header > .title {
+border: 0;
+color: #ffffff;
+ display: block;
+font-size: 1.25em;
+font-weight: bold;
+}
+
+#header > nav {
+-moz-flex: 1;
+-webkit-flex: 1;
+-ms-flex: 1;
+flex: 1;
+text-align: right;
+}
+ #header > nav > ul {
+ margin: 0;
+padding: 0;
+}
+
+ #header > nav > ul > li {
+ display: inline-block;
+margin-left: 1.75em;
+ padding: 0;
+vertical-align: middle;
+}
+
+#header > nav > ul > li:first-child {
+margin-left: 0;
+}
+
+#header > nav > ul > li a {
+  border: 0;
+color: rgba(255, 255, 255, 0.542);
+display: inline-block;
+ font-size: 0.6em;
+font-weight: bold;
+letter-spacing: 0.25em;
+text-transform: uppercase;
+}
+ #header > nav > ul > li a:hover {
+color: rgb(144, 225, 164)
+}
+#header > nav > ul > li a.active {
+color: #dd1a1a;
+}
+
+.image-fit {
+ display: block;
+ margin: 0 0 2em 0;
+ width: 100%;
+}
+.container{
+    margin:10px;
+    gap: 5em;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+	width: 95%;
+    height: auto;
+}
+.container h2{
+    font-weight: 700;
+    padding: 0 1em;
+}           
+                   
