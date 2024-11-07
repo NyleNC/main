@@ -56,9 +56,9 @@ body{
                 }
 
                     #header > nav > ul > li a:hover {
-                        color: rgb(144, 225, 164)
+                        color: rgba(255, 255, 255, 0.55);
                     }
 
                     #header > nav > ul > li a.active {
-                        color: #dd1a1a;
+                        color: #ffffff;
                     }
