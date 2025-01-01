@@ -1,6 +1,6 @@
 body{
     background: #afadad;
-    color: rgb(32, 129, 151);
+    color: rgba(7, 7, 190, 0.601);
     font-family: "Hubot Sans", sans-serif;
     
     font-weight: 400;
@@ -11,13 +11,14 @@ h1{
     font-family: "Arsenal SC", serif;
   font-weight: 700;
   font-style: normal;
+  color: aqua;
 }
 #header {
 display: -moz-flex;
 display: -webkit-flex;
 display: -ms-flex;
 display: flex;
-background-color: #5e42a6;
+background-color: #4242a6;
 cursor: default;
 padding: 1em 2em;
 }
