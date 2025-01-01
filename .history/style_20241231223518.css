@@ -1,5 +1,5 @@
 body{
-    background: #a490e1;
+    background: #cecece;
     color: rgb(32, 129, 151);
     font-family: "Hubot Sans", sans-serif;
     
@@ -22,13 +22,7 @@ cursor: default;
 padding: 1em 2em;
 }
 
-#header > .title {
-border: 0;
-color: #ffffff;
- display: block;
-font-size: 1.25em;
-font-weight: bold;
-}
+
 
 #header > nav {
 -moz-flex: 1;
@@ -44,7 +38,7 @@ padding: 0;
 
  #header > nav > ul > li {
  display: inline-block;
-margin-left: 1.75em;
+margin-left: 1em;
  padding: 0;
 vertical-align: middle;
 }
