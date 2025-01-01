@@ -1,11 +1,10 @@
 body{
-    background: #afadad;
+    background: #e3e3e3;
     color: rgba(7, 7, 190, 0.601);
     font-family: "Hubot Sans", sans-serif;
-    
     font-weight: 400;
     font-style: normal;
-   
+   margin: 0 auto;
 }
 h1{
     font-family: "Arsenal SC", serif;
@@ -13,42 +12,35 @@ h1{
   font-style: normal;
   color: aqua;
 }
-#header {
-display: -moz-flex;
-display: -webkit-flex;
-display: -ms-flex;
+
+.header {
 display: flex;
 background-color: #4242a6;
 cursor: default;
+
 padding: 1em 2em;
 }
 
-
-
-#header > nav {
--moz-flex: 1;
--webkit-flex: 1;
--ms-flex: 1;
+.header > nav {
 flex: 1;
 text-align: right;
 }
- #header > nav > ul {
+.header > nav > ul {
  margin: 0;
 padding: 0;
 }
 
- #header > nav > ul > li {
+.header > nav > ul > li {
  display: inline-block;
 margin-left: 1em;
- padding: 0;
 vertical-align: middle;
 }
 
-#header > nav > ul > li:first-child {
+.header > nav > ul > li:first-child {
 margin-left: 0;
 }
 
-#header > nav > ul > li a {
+.header > nav > ul > li a {
   border: 0;
 color: rgba(255, 255, 255, 0.542);
 display: inline-block;
@@ -57,10 +49,10 @@ font-weight: bold;
 letter-spacing: 0.25em;
 text-transform: uppercase;
 }
- #header > nav > ul > li a:hover {
+.header > nav > ul > li a:hover {
 color: rgb(144, 225, 164)
 }
-#header > nav > ul > li a.active {
+.header > nav > ul > li a.active {
 color: #dd1a1a;
 }
 
