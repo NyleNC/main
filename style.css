@@ -72,6 +72,7 @@ color: #dd1a1a;
 }
  .container{
     margin: 0 auto;
+    padding: 1em 2em;
     gap: 25px;
     display: grid;
     grid-template-columns:  1fr 1fr;
@@ -81,5 +82,9 @@ color: #dd1a1a;
 }
 .container h3{
     padding-left: 10px;
+}
+.indexCon{
+  margin: 0 auto;
+  padding: 1em 2em;
 }           
                    
