@@ -1,5 +1,5 @@
 body{
-    background: #afadad;
+    background: #ffffff;
     color: rgb(32, 129, 151);
     font-family: "Hubot Sans", sans-serif;
     
@@ -66,8 +66,7 @@ color: #dd1a1a;
 .image-fit {
  display: block;
  margin: 0 0 2em 0;
- width: 85%;
-
+ width: 100%;
 }
  .container{
     margin: 0 auto;
