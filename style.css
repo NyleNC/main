@@ -78,5 +78,29 @@ color: #dd1a1a;
 .indexCon{
   margin: 0 auto;
   padding: 1em 2em;
+
+
 }           
+.grid-items{
+ grid-template-columns: 1fr 1fr;
+ display: grid;
+ margin: 0 auto;
+ gap: 0z;
+}
                    
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff; 
+  text-decoration: none; 
+  border: none;
+  border-radius: 3px; 
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3; 
+  cursor: pointer;
+}
