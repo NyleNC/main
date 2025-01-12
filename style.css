@@ -11,6 +11,7 @@ h1{
   font-weight: 700;
   font-style: normal;
   text-align: center;
+  padding: 1em 1em;
 }
 a{
   color: inherit;
@@ -22,8 +23,9 @@ padding: 1em;
 }
 
 .navs nav {
-flex: 1;
+
 text-align: center;
+
 }
 
 
@@ -35,10 +37,10 @@ margin:5px;
 
 
 .navs  ul  li a {
-  border: 0;
+  border: 1px groove blue;
   color: none;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15spx;
 
   padding: 5px 30px;
   color: #007bfffc;
@@ -48,15 +50,15 @@ margin:5px;
   line-height: 50px;
  
 }
-
 .navs li a:before{
+ 
   content: '';
   position: absolute;
   bottom: 0;
   left: 0;
   height: 3px;
   width: 0%;
-  background: #ef6034;
+  background: #5634ef;
   border-radius: 12px;
   transition: all 0.4s ease;
 }
@@ -89,10 +91,6 @@ margin:5px;
 .navs> nav > ul > li a.active {
 color: #dd1a1a;
 }
-
-
-
-
 .image-fit {
  display: block;
 
@@ -136,7 +134,7 @@ color: #dd1a1a;
 }        
 
 .left h1 {
-  margin: 15px 0;
+  margin: 0 auto;
   font-size: 1.8em;
   text-align: left;
 }
@@ -148,6 +146,11 @@ color: #dd1a1a;
 border-radius: 10px;
 overflow: hidden;
 
+}
+.wrapper img{
+  width: 75%;
+  padding: 1em;
+  margin: 0 auto;
 }
 .wrapper nav > ul > li {
   display: inline-block;
@@ -167,14 +170,16 @@ font-size: 15px;
                    
 .button {
   display: inline-block;
-  padding: 10px 10px;
-  font-size: 10px;
+  margin:  0 auto;
+  padding: 1em 1em;
+  font-size: 1em;
   color: white;
   background-color: #007bff; 
   text-decoration: none; 
   border: none;
   border-radius: 3px; 
   transition: background-color 0.3s ease;
+  align-items: right;
 }
 
 .button:hover {
@@ -194,37 +199,44 @@ font-size: 15px;
     gap: 25px;
     display: grid;
     grid-template-columns:  1fr 1fr;
-	width: 85%;
-    height: auto;
-
+    width: 85%;
+ 
 
 }
-.button{
-  font-size: 20px;
+p,h2,h3{
+  font-size: 3em;
 }
 
-.right{
-  margin: 1em auto;
-  padding: 1em 2em;
-
-
-} 
-        
 .grid-items{
   grid-template-columns: repeat(2, 1fr);
  display: grid;
- margin: 1em;
+ margin: 1em auto;
  gap: 0;
-
-
+width: 95%;
+padding: 1em;
+}
+.grid-items li{
+  font-size: 1.5em;
 }
 .header{
-  padding: 2em;
+  font-size: 2em;
 }
 .header > nav > ul > li a {
   display: inline-block;
  margin:1em;
- font-size: 1em;
- }
 
+
+ }
+ .right{
+  margin: 0 auto;
+  padding: 2em;
+ }
+.wrapper{
+  font-size: 25px;
+  padding: 1em;
+}
+.navs  ul  li a {
+ 
+  font-size: 1em;
+}
 }
