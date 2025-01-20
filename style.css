@@ -239,4 +239,13 @@ padding: 1em;
  
   font-size: 1em;
 }
+
+}
+.footer{
+  padding: 5em 13em;
+  background-color: #0a094d;
+
+}
+.footer h4{
+  color: brown;
 }
